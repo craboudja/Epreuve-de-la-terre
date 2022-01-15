@@ -24,7 +24,7 @@ const alphabetFrom = letter => {
       }
     }
   } else {
-    console.log('Arg must be only one letter')
+    console.log('Arg must be only one letter!')
   }
 }
 
