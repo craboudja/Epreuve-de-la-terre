@@ -12,11 +12,6 @@
 
 const arguments = process.argv
 
-let chiffres = [arguments[2], arguments[3], arguments[4]]
+let chiffres = [arguments[2], arguments[3], arguments[4]].sort()
 const unique = [...new Set(chiffres)]
-if (arguments.length === 5 && unique.length === 3) {
-    chiffres = chiffres.sort()
-    console.log(chiffres[1])
-} else {
-    console.log('Erreur, ma poule! Essaie encore')
-}
+console.log(arguments.length === 5 && unique.length === 3 ? chiffres[1] : 'Erreur, ma poule! Essaie encore')
