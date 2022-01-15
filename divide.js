@@ -16,7 +16,6 @@ const denominateur = process.argv[3]
 const reste = numerateur % denominateur
 const resultat = Math.floor(numerateur / denominateur)
 
-
 if (denominateur == 0 || denominateur > numerateur || isNaN(resultat)) {
   console.log('erreur')
 } else {
