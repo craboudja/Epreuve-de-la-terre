@@ -1,4 +1,8 @@
 
 # Epreuve-de-la-terre
 
-algo
+Programme Coding Accelerator
+
+Epreuve faite en JS
+
+Pour exécuter : `node <nomDuFicher> <éventuelArgument>`
