@@ -14,8 +14,8 @@ const alphabetFrom = letter => {
   const processArgv = process.argv.length === 3
   const isItNan = (isNaN(parseInt(letter)))
   letter = letter.toLowerCase()
-    // on vérifie qu'il n'y a qu'un argument, que ce n'est pas un chiffre 
-    // et que mis en minuscule il fait partie du tableau
+  // on vérifie qu'il n'y a qu'un argument, que ce n'est pas un chiffre
+  // et que mis en minuscule il fait partie du tableau
   if (processArgv && isItNan && alphabet.includes(letter)) {
     for (let i = 0; i < alphabet.length; i++) {
       if (alphabet[i] === letter) {
