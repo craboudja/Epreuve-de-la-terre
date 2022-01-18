@@ -7,4 +7,4 @@
 // $> node exo.js 6
 // Non, 6 n’est pas un nombre premier.
 
-// Attention : 0 et 1 ne sont pas des nombres premiers. Gérez les erreurs d’arguments.
+// Attention : 0 et 1 ne sont pas des nombres premiers. Gérez les erreurs d’args.

@@ -10,8 +10,8 @@
 // $> ruby exo.rb 2 2 2
 // erreur.
 
-const arguments = process.argv
+const args = process.argv
 
-let chiffres = [arguments[2], arguments[3], arguments[4]].sort()
+let chiffres = [args[2], args[3], args[4]].sort()
 const unique = [...new Set(chiffres)]
-console.log(arguments.length === 5 && unique.length === 3 ? chiffres[1] : 'Erreur, ma poule! Essaie encore')
+console.log(args.length === 5 && unique.length === 3 ? chiffres[1] : 'Erreur, ma poule! Essaie encore')

@@ -14,7 +14,7 @@
 // Tu ne me la mettras pas à l’envers.
 
 // Attention : gérez aussi les entiers négatifs.
-const arguments = process.argv
-const num = arguments[2]
+const args = process.argv
+const num = args[2]
 
-console.log(!isNaN(num) && num > 0 && arguments.length == 3 ? (num % 2 === 0 ? 'pair' : 'impair') : "Tu ne me la mettras pas à l'envers") 
+console.log(!isNaN(num) && num > 0 && args.length == 3 ? (num % 2 === 0 ? 'pair' : 'impair') : "Tu ne me la mettras pas à l'envers") 

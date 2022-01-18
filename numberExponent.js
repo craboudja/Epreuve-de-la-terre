@@ -6,13 +6,13 @@
 // $> node exo.js 2 3
 // 8
 
-// Attention : je compte sur vous pour gérer les potentielles erreurs d’arguments.
+// Attention : je compte sur vous pour gérer les potentielles erreurs d’args.
 
-const arguments = process.argv
-const num1 = arguments[2]
-const num2 = arguments[3] 
+const args = process.argv
+const num1 = args[2]
+const num2 = args[3] 
 
-if (!isNaN(num1) && !isNaN(num2) && arguments.length == 4) {
+if (!isNaN(num1) && !isNaN(num2) && args.length == 4) {
     console.log(num1 ** num2)
 } else {
     console.log("erreur")

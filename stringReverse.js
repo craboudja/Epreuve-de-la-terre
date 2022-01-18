@@ -7,4 +7,4 @@
 // $> node exo.js “lehciM”
 // Michel
 
-// Attention : je compte sur vous pour gérer les potentielles erreurs d’arguments.
+// Attention : je compte sur vous pour gérer les potentielles erreurs d’args.

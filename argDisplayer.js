@@ -1,4 +1,4 @@
-// Créez un programme qui affiche les arguments qu’il reçoit ligne par ligne, peu importe le nombre d’arguments.
+// Créez un programme qui affiche les args qu’il reçoit ligne par ligne, peu importe le nombre d’args.
 
 
 // Exemples d’utilisation :
@@ -8,10 +8,10 @@
 // solide
 // !
 
-const arguments = process.argv
+const args = process.argv
 
-for (let i = 2; i < arguments.length; i++) {
-    console.log(arguments[i])
+for (let i = 2; i < args.length; i++) {
+    console.log(args[i])
 }
 
 
